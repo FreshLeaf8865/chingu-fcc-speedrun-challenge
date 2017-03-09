@@ -11,7 +11,7 @@ function parseForecast(data, metric) {
 
     <div key={i} className="home__forecast-day">
       {day.date.weekday_short}<br/>
-      <img src={day.icon_url}/><br/>
+      <img src={day.icon_url.replace('http', 'https')}/><br/>
       {metric ? day.low.celsius : day.low.fahrenheit}{deg} ... {metric ? day.high.celsius : day.high.fahrenheit}{deg}
     </div>
 
@@ -41,7 +41,7 @@ const Home = (props) => {
           handleToggle={props.handleToggle}
         />
         <div>{props.weather.weather.weather}</div>
-        <div><img width="100px" src={props.weather.weather.icon_url} /></div>
+        <div><img width="100px" src={props.weather.weather.icon_url.replace('http', 'https')} /></div>
       </div>
       <div className="home__forecast">{parseForecast(forecast, props.temp_c)}</div>
     </div>
