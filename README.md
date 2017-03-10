@@ -36,7 +36,7 @@ Integrate all of the FCC Projects you created in Phase 1 into one comprehensive 
 * All code for Phase 1 should be committed to your fork of this repo.
 * Phase 2 code should be in a separate repository each participant creates to contain their personal Portfolio SPA.
 * You may ask for help and help others - preference should always be given to helping someone understand, not handing them code they don't.
-* If someone is stuck, you may pair with them to help them get unstuck (on as many projects as you want) even if you're doing your own entry separately or with another pair. 
+* If someone is stuck, you may pair with them to help them get unstuck (on as many projects as you want) even if you're doing your own entry separately or with another pair.
 * If someone pairs with you to help you get unstuck, be sure to make a note to credit them in your repo and in your blog posts.
 
 ### Deliverables
@@ -60,12 +60,12 @@ Who can make the most complete and professional looking portfolio in Phase 2?
 Copy this table as needed to make a separate table for each team member for recording blog posts
 
 | Complete | Blog Post |Project  |
-|----------|---------|----------|
+|:----------:|---------|----------|
 |      | N/A| [Comprehensive Portfolio as a Single Page App](./portfolio) |   |
-|      |  [ ]()  | [Build a Tribute Page](./frontend/tribute-page) |  |
+|   &#10004;   |  [Link](https://medium.com/@jenovs/fcc-speedrun-tribute-page-96946a9f744b)  | [Build a Tribute Page](./frontend/tribute-page) |  |
 |      |  [ ]()  | [Build a Personal Portfolio Webpage](./frontend/portfolio) |  |
-|      |  [ ]()  | [Build a Random Quote Machine](./frontend/random-quote-machine) |  |
-|      |  [ ]()  | [Show the Local Weather](./frontend/local-weather) |  |
+|&#10004;      |  [Link](https://medium.com/chingu/fcc-speedrun-random-quote-machine-16ed88a87fb)  | [Build a Random Quote Machine](./frontend/random-quote-machine) |  |
+|&#10004;      |  [Link](https://medium.com/@jenovs/fcc-speedrun-show-the-local-weather-2ab7940b484b)  | [Show the Local Weather](./frontend/local-weather) |  |
 |      |  [ ]()  | [Build a Wikipedia Viewer](./frontend/wikipedia-viewer) |  |
 |      |  [ ]()  | [Use the Twitch.tv JSON API](./frontend/twitch-client) |  |
 |      |  [ ]()  | [Build a JavaScript Calculator](./frontend/calculator) |  |
@@ -92,5 +92,3 @@ Copy this table as needed to make a separate table for each team member for reco
 |      |  [ ]()  | [Chart the Stock Market](./backend/app-stock-market) |  |
 |      |  [ ]()  | [Manage a Book Trading Club](./backend/app-book-trading) |  |
 |      |  [ ]()  | [Build a Pinterest Clone](./backend/app-pinterest-clone) |  |
-
-
