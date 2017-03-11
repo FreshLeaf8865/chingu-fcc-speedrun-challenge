@@ -45,7 +45,7 @@ class Channel extends React.Component {
       <div className="channel__container"
         onClick={this.handleClick.bind(this, name)}>
 
-        <Logo src={logo || 'img/no-logo.gif'}/>
+        <Logo src={logo || 'https://www.med.unc.edu/tarc/images/person%20placeholder.png'}/>
 
         <div className="channel-text__container">
           <ChannelText
