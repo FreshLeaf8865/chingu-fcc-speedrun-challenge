@@ -2,8 +2,6 @@
 
 ## Details
 
-Fork this repository and add your code for each project to the appropriate folder in your repository as you complete each project.
-
 You may work in pairs for phase 1 and you and your pair may share the same repository for phase 1. For phase 2, each participant should create a new repository to contain their personal Portfolio SPA.
 
 ### The goal (Phase 1)
@@ -62,11 +60,11 @@ Copy this table as needed to make a separate table for each team member for reco
 | Complete | Blog Post |Project  |
 |:----------:|---------|----------|
 |      | N/A| [Comprehensive Portfolio as a Single Page App](./portfolio) |   |
-|   &#10004;   |  [Link](https://medium.com/@jenovs/fcc-speedrun-tribute-page-96946a9f744b)  | [Build a Tribute Page](./frontend/tribute-page) |  |
+| &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-tribute-page-96946a9f744b) | [Build a Tribute Page](./frontend/tribute-page) |  |
 |      |  [ ]()  | [Build a Personal Portfolio Webpage](./frontend/portfolio) |  |
-|&#10004;      |  [Link](https://medium.com/chingu/fcc-speedrun-random-quote-machine-16ed88a87fb)  | [Build a Random Quote Machine](./frontend/random-quote-machine) |  |
-|&#10004;      |  [Link](https://medium.com/@jenovs/fcc-speedrun-show-the-local-weather-2ab7940b484b)  | [Show the Local Weather](./frontend/local-weather) |  |
-|      |  [ ]()  | [Build a Wikipedia Viewer](./frontend/wikipedia-viewer) |  |
+| &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-random-quote-machine-16ed88a87fb) | [Build a Random Quote Machine](./frontend/random-quote-machine) |  |
+| &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-show-the-local-weather-2ab7940b484b) | [Show the Local Weather](./frontend/local-weather) |  |
+| &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-wikipedia-viewer-da6fc2a07c69) | [Build a Wikipedia Viewer](./frontend/wikipedia-viewer) |  |
 |      |  [ ]()  | [Use the Twitch.tv JSON API](./frontend/twitch-client) |  |
 |      |  [ ]()  | [Build a JavaScript Calculator](./frontend/calculator) |  |
 |      |  [ ]()  | [Build a Pomodoro Clock](./frontend/pomodoro-clock) |  |
