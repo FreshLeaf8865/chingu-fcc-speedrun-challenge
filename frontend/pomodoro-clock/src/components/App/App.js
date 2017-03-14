@@ -80,8 +80,15 @@ export default class App extends React.Component {
       });
     }
 
+
     else if (id === 2) {
       const timer = breakTime - 1 > 0 ? breakTime - 1 : 1;
+      if (activeTimer === 'Break') {
+        return this.setState({
+          breakTime: timer,
+          timer: timer * 60,
+        });
+      }
       this.setState({
         breakTime: timer,
       });
@@ -89,6 +96,12 @@ export default class App extends React.Component {
 
     else if (id === 3) {
       const timer = breakTime + 1;
+      if (activeTimer === 'Break') {
+        return this.setState({
+          breakTime: timer,
+          timer: timer * 60,
+        });
+      }
       this.setState({
         breakTime: timer,
       });
