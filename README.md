@@ -65,10 +65,10 @@ Copy this table as needed to make a separate table for each team member for reco
 | &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-random-quote-machine-16ed88a87fb) | [Build a Random Quote Machine](./frontend/random-quote-machine) |  |
 | &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-show-the-local-weather-2ab7940b484b) | [Show the Local Weather](./frontend/local-weather) |  |
 | &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-wikipedia-viewer-da6fc2a07c69) | [Build a Wikipedia Viewer](./frontend/wikipedia-viewer) |  |
-|      |  [ ]()  | [Use the Twitch.tv JSON API](./frontend/twitch-client) |  |
-|      |  [ ]()  | [Build a JavaScript Calculator](./frontend/calculator) |  |
-|      |  [ ]()  | [Build a Pomodoro Clock](./frontend/pomodoro-clock) |  |
-|      |  [ ]()  | [Build a Tic Tac Toe Game](./frontend/tictactoe-game) |  |
+| &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-twitch-client-b8b903d7070d) | [Use the Twitch.tv JSON API](./frontend/twitch-client) |  |
+| &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-calculator-a2aa3365f9d8) | [Build a JavaScript Calculator](./frontend/calculator) |  |
+| &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-pomodoro-clock-797a688fccc8) | [Build a Pomodoro Clock](./frontend/pomodoro-clock) |  |
+| &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-tic-tac-toe-1a5a018c318e) | [Build a Tic Tac Toe Game](./frontend/tictactoe-game) |  |
 |      |  [ ]()  | [Build a Simon Game](./frontend/simon-game) |  |
 |      |  [ ]()  | [Build a Markdown Previewer](./data-vis/markdown-previewer) |  |
 |      |  [ ]()  | [Build a Camper Leaderboard](./data-vis/camper-leaderboard) |  |
