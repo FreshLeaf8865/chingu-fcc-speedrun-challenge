@@ -69,7 +69,7 @@ Copy this table as needed to make a separate table for each team member for reco
 | &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-calculator-a2aa3365f9d8) | [Build a JavaScript Calculator](./frontend/calculator) |  |
 | &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-pomodoro-clock-797a688fccc8) | [Build a Pomodoro Clock](./frontend/pomodoro-clock) |  |
 | &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-tic-tac-toe-1a5a018c318e) | [Build a Tic Tac Toe Game](./frontend/tictactoe-game) |  |
-|      |  [ ]()  | [Build a Simon Game](./frontend/simon-game) |  |
+| &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-simon-game-1fed651c6fad) | [Build a Simon Game](./frontend/simon-game) |  |
 |      |  [ ]()  | [Build a Markdown Previewer](./data-vis/markdown-previewer) |  |
 |      |  [ ]()  | [Build a Camper Leaderboard](./data-vis/camper-leaderboard) |  |
 |      |  [ ]()  | [Build a Recipe Box](./data-vis/recipe-box) |  |
