@@ -1,0 +1,34 @@
+.home__container {
+  // align-items: center;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  justify-content: flex-start;
+  // margin: auto;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 960px;
+}
+
+.home__collapse {
+  min-width: 100%;
+}
+
+// .home__panel {
+//   color: white;
+// }
+
+.home__button-add {
+  align-self: flex-end;
+  margin-top: 2rem;
+  margin-right: 0;
+}
+
+.home__title {
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  // height: 3rem;
+}
