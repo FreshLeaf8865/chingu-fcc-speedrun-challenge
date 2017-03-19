@@ -1,0 +1,19 @@
+.home__container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 2rem auto;
+  // width: 100%;
+  // max-width: 960px;
+}
+
+.home__game-status {
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.home__board {
+  border: 1px dotted gray;
+}
