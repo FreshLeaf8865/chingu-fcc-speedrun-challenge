@@ -70,11 +70,11 @@ Copy this table as needed to make a separate table for each team member for reco
 | &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-pomodoro-clock-797a688fccc8) | [Build a Pomodoro Clock](./frontend/pomodoro-clock) |  |
 | &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-tic-tac-toe-1a5a018c318e) | [Build a Tic Tac Toe Game](./frontend/tictactoe-game) |  |
 | &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-simon-game-1fed651c6fad) | [Build a Simon Game](./frontend/simon-game) |  |
-|      |  [ ]()  | [Build a Markdown Previewer](./data-vis/markdown-previewer) |  |
-|      |  [ ]()  | [Build a Camper Leaderboard](./data-vis/camper-leaderboard) |  |
-|      |  [ ]()  | [Build a Recipe Box](./data-vis/recipe-box) |  |
-|      |  [ ]()  | [Build the Game of Life](./data-vis/game-of-life) |  |
-|      |  [ ]()  | [Build a Roguelike Dungeon Crawler](./data-vis/dungeon-crawler) |  |
+| &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-markdown-previewer-f404c0997c22) | [Build a Markdown Previewer](./data-vis/markdown-previewer) |  |
+| &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-camper-leaderboard-fa444c3cc319) | [Build a Camper Leaderboard](./data-vis/camper-leaderboard) |  |
+| &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-recipe-box-e3e239babb29) | [Build a Recipe Box](./data-vis/recipe-box) |  |
+| &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-game-of-life-81ffe84bae2) | [Build the Game of Life](./data-vis/game-of-life) |  |
+| &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-dungeon-crawler-c53b26eb7819) | [Build a Roguelike Dungeon Crawler](./data-vis/dungeon-crawler) |  |
 |      |  [ ]()  | [Visualize Data with a Bar Chart](./data-vis/bar-chart) |  |
 |      |  [ ]()  | [Visualize Data with a Scatterplot Graph](./data-vis/scatterplot-graph) |  |
 |      |  [ ]()  | [Visualize Data with a Heat Map](./data-vis/heat-map) |  |
