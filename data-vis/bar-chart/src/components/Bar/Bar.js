@@ -49,7 +49,9 @@ export default class Bar extends React.Component {
     const { data } = this.props;
     return (
       <rect
-        className="bar__rect"
+        className="bar bar__rect"
+        data-date={data[0]}
+        data-gdp={data[1]}
         onMouseEnter={e => this.handleCover(e, data)}
         onMouseLeave={e => this.handleCover(e, data)}
         onClick={e => this.handleCover(e, data)}

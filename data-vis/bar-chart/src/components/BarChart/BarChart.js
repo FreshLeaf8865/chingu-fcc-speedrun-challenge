@@ -116,10 +116,10 @@ function renderChart(data, handleTooltip, totalWidth, totalHeight) {
           )
         })}
       </svg>
-      <Axis {...xAxisSettings} />
-      <Axis {...yAxisSettings} />
+      <Axis {...xAxisSettings} id={"x-axis"} />
+      <Axis {...yAxisSettings} id={"y-axis"} />
       <text y={60} x={-50} style={{'textAnchor': 'middle'}} dy="1em" transform="rotate(-90)">{totalWidth > 300 && 'USD Billion'}</text>
-      {totalWidth > 300 && <text y={margin.top*2} x={width/2} className="bar-chart__title" style={{'textAnchor': 'middle'}} >US GDP</text>}
+      {totalWidth > 300 && <text y={margin.top*2} x={width/2} id="title" className="bar-chart__title" style={{'textAnchor': 'middle'}} >US GDP</text>}
     </svg>
   )
 }
