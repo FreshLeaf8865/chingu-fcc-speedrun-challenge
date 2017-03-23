@@ -105,7 +105,7 @@ function renderChart(data, handleTooltip, totalWidth, totalHeight) {
 
   return (
     <svg width={totalWidth} height={totalHeight}>
-      <svg width={width} height={height} transform={`translate(${140})`} x={margin.left}>
+      <svg width={width} height={height} transform={`translate(${0})`} x={margin.left}>
         {data.monthlyVariance.map((d, i) => {
           return (
             <Cell
@@ -123,7 +123,7 @@ function renderChart(data, handleTooltip, totalWidth, totalHeight) {
         })}
       </svg>
       <Axis {...xAxisSettings} id={"x-axis"} />
-      {months.map((m, i) => <text x={20} y={height/12 * (i + 1) - height/35} key={i} style={{'fontSize': `${width/55}px`}}>{m}</text>)}
+      {months.map((m, i) => <text x={20} y={height/12 * (i + 1) - height/35} key={i} style={{'fontSize': `${Math.floor(width/55)}px`}}>{m}</text>)}
       {/* <Legend y={height} data={[0].concat(c.quantiles()), d => d}/> */}
     </svg>
   )
