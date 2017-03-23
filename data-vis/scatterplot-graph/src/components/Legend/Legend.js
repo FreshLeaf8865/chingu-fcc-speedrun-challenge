@@ -7,9 +7,9 @@ import './legend.scss';
 const Legend = (props) => (
   <g transform={`translate(${props.x}, ${props.y})`}>
     <circle r="5" style={{fill: 'green', stroke: 'black'}}/>
-    <text dx="0.5rem" dy="0.3rem">No doping allegations</text>
-    <circle cy="1rem" r="5" style={{fill: 'red', stroke: 'black'}}/>
-    <text dx="0.5rem" dy="1.4rem">Alleged doping use</text>
+    <text dx="8" dy="5">No doping allegations</text>
+    <circle cy="16" r="5" style={{fill: 'red', stroke: 'black'}}/>
+    <text dx="8" dy="22">Alleged doping use</text>
   </g>
 )
 

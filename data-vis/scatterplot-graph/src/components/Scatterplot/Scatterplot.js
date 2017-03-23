@@ -109,7 +109,7 @@ function renderChart(data, handleTooltip, totalWidth, totalHeight) {
 
   return (
     <svg width={totalWidth} height={totalHeight}>
-      <svg width={width} height={height} transform={`translate(${140})`} x={margin.left}>
+      <svg width={width} height={height} transform={`translate(${0})`} x={margin.left}>
         {data.map((d, i) => {
           return (
             <Circle key={i} d={d} x={x} y={y} handleTooltip={handleTooltip} />
