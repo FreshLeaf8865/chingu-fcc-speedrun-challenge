@@ -18,7 +18,7 @@ const Tooltip = (props) => {
       style={styles}
       className="tooltip__container"
     >
-      {data.year} - {months[data.month]}<br/>
+      {data.year} - {months[data.month-1]}<br/>
       {(data.variance + 8.66).toFixed(3)}&deg;C<br/>
       <span>{data.variance}&deg;C</span>
     </div>
