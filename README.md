@@ -75,9 +75,9 @@ Copy this table as needed to make a separate table for each team member for reco
 | &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-recipe-box-e3e239babb29) | [Build a Recipe Box](./data-vis/recipe-box) |  |
 | &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-game-of-life-81ffe84bae2) | [Build the Game of Life](./data-vis/game-of-life) |  |
 | &#10004; | [Link](https://medium.com/@jenovs/fcc-speedrun-dungeon-crawler-c53b26eb7819) | [Build a Roguelike Dungeon Crawler](./data-vis/dungeon-crawler) |  |
-|      |  [ ]()  | [Visualize Data with a Bar Chart](./data-vis/bar-chart) |  |
-|      |  [ ]()  | [Visualize Data with a Scatterplot Graph](./data-vis/scatterplot-graph) |  |
-|      |  [ ]()  | [Visualize Data with a Heat Map](./data-vis/heat-map) |  |
+| &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-d3-bar-chart-5c95989f005) | [Visualize Data with a Bar Chart](./data-vis/bar-chart) |  |
+| &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-d3-react-scatterplot-chart-c8cc7924df47) | [Visualize Data with a Scatterplot Graph](./data-vis/scatterplot-graph) |  |
+| &#10004; | [Link](https://medium.com/chingu/fcc-speedrun-d3-react-heatmap-eedc310edcc) | [Visualize Data with a Heat Map](./data-vis/heat-map) |  |
 |      |  [ ]()  | [Show National Contiguity with a Force Directed Graph](./data-vis/force-directed-graph) |  |
 |      |  [ ]()  | [Map Data Across the Globe](./data-vis/data-across-globe) |  |
 |      |  [ ]()  | [Timestamp Microservice](./backend/api-timestamp) |  |
