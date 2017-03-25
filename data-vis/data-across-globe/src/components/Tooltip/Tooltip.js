@@ -7,8 +7,8 @@ const Tooltip = (props) => {
 
   const styles = {
     position: 'fixed',
-    left: props.x - 50,
-    top: props.y - 80,
+    left: props.x,
+    top: props.y,
   }
 
   return (
@@ -16,13 +16,9 @@ const Tooltip = (props) => {
       style={styles}
       className="tooltip__container"
     >
-      {data.Name} ({data.Nationality})
-      <br/>
-      Time: {data.Time}, Place: {data.Place}
-      <br/>
-      Year: {data.Year}
-      <br/>
-      <span>{data.Doping}</span>
+      Name: {data.properties.name}<br/>
+      Mass: {data.properties.mass}<br/>
+      Year: {data.properties.year}
     </div>
     )
 }

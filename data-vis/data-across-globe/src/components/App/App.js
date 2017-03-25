@@ -2,8 +2,6 @@ import React from 'react';
 
 import './app.scss';
 
-const dataUrl = 'https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/cyclist-data.json';
-
 const checkWidth = (winWidth) => {
   const baseWidth = 1600;
   const minWidth = 1600;
@@ -26,27 +24,22 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch(dataUrl)
-    .then(res => res.json())
-    .then(json => this.setState(state => ({data: json})));
-
-    window.addEventListener('resize', (e) => this.handleResize(e));
+    // window.addEventListener('resize', (e) => this.handleResize(e));
   }
 
-  handleResize(e) {
-    const w = checkWidth(window.innerWidth - 100);
-
-    this.setState(state => ({
-      width: w,
-      height: w / 2,
-    }))
-  }
+  // handleResize(e) {
+  //   const w = checkWidth(window.innerWidth - 100);
+  //
+  //   this.setState(state => ({
+  //     width: w,
+  //     height: w / 2,
+  //   }))
+  // }
 
   render() {
-    const { data, width, height, boxShadow } = this.state;
+    const { width, height, boxShadow } = this.state;
     const props = {
       boxShadow,
-      data,
       width,
       height,
     };

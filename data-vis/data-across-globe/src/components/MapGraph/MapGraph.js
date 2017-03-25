@@ -3,28 +3,47 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as topojson from 'topojson';
 
+import Tooltip from './../Tooltip';
+
 import './main.scss';
-// import './d3.geomap.scss';
-// import './d3.geomap.min.js';
-// import './d3.geomap.dependencies.min.js';
-// import * as countriesJSON from './countries.json'
 
 export default class MapGraph extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      showTooltip: false,
+    }
+    this.handleTooltip = this.handleTooltip.bind(this);
+  }
+
   componentDidMount() {
     const { data, totalWidth, totalHeight } = this.props;
-    renderChart.bind(this, data, totalWidth, totalHeight)();
+    renderChart.bind(this, data, totalWidth, totalHeight, this.handleTooltip)();
   }
+
+  handleTooltip(d, coords) {
+    if (!d) return this.setState(state => ({showTooltip: false}));
+
+    this.setState(() => ({
+      showTooltip: true,
+      tooltipData: d,
+      tooltipCoords: coords,
+    }));
+  }
+
   render() {
+    const { tooltipData, tooltipCoords } = this.state;
     return (
       <div id="map">
         <div ref="links"></div>
-        <div id="chart"></div>
+        {this.state.showTooltip && <Tooltip data={tooltipData} x={tooltipCoords[0]} y={tooltipCoords[1]}/>}
       </div>
     )
   }
 }
 
-  function renderChart(data, totalWidth, totalHeight) {
+  function renderChart(data, totalWidth, totalHeight, handleTooltip) {
   // const width = totalWidth - margin.left - margin.right;
   // const height = totalHeight - margin.top - margin.bottom;
   const width = totalWidth;
@@ -44,17 +63,13 @@ export default class MapGraph extends React.Component {
   const path = d3.geoPath()
     .projection(projection);
 
-  // console.log(topology);
   d3.queue()
-    // .defer(d3.json, './countries.json')
     .defer(d3.json, 'https://s3.amazonaws.com/vj-fcc/countries.json')
     .defer(d3.json, 'https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json')
-    .await(ready)
+    .await(ready.bind(this, handleTooltip))
 
-  function ready(err, data, meteors) {
-    // console.log(meteors.features);
+  function ready(handleTooltip, err, data, meteors, ) {
     const countries = topojson.feature(data, data.objects.units).features;
-    // console.log(countries);
 
     svg.selectAll('.country')
       .data(countries)
@@ -69,25 +84,24 @@ export default class MapGraph extends React.Component {
       .append('circle')
       .attr('r', d => {
         const mass = d.properties.mass;
-        if (mass / 1000 < 10) return 3;
-        if (mass / 1000 > 30) return Math.log(mass / 1000);
-        // if (mass / 1000 > 10) return Math.log(mass / 1000);
-        // return 10;
-        return (mass / 1000);
+        let size = Math.sqrt(mass / 1000)
+        return size > 3 ? size : 3;
       })
       .attr('cx', d => {
-        // console.log(d);
         if (!d.geometry) return 0;
         return projection([d.geometry.coordinates[0], d.geometry.coordinates[1]])[0]
-        // return 20
       })
       .attr('cy', d => {
         if (!d.geometry) return 0;
-        // return 20
         return projection([d.geometry.coordinates[0], d.geometry.coordinates[1]])[1]
       })
+      .on('mouseenter', function (d) {
+        const coords = d3.mouse(this);
+        if (!d.geometry) return 0;
+        handleTooltip(d, coords)
+      })
+      .on('mouseleave', () => handleTooltip(false))
   }
-
 
   return {__html: map};
 }
