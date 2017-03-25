@@ -46,8 +46,8 @@ export default class MapGraph extends React.Component {
 
   // console.log(topology);
   d3.queue()
-    .defer(d3.json, './countries.json')
-    // .defer(d3.json, countriesJSON)
+    // .defer(d3.json, './countries.json')
+    .defer(d3.json, 'https://s3.amazonaws.com/vj-fcc/countries.json')
     .defer(d3.json, 'https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json')
     .await(ready)
 
